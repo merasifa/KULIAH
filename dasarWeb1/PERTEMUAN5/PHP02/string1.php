@@ -1,7 +1,11 @@
 <?php
 
-$loremIpsum = Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Dolorum enim laudantium, illo itaque omnis excepturi adipisci accusamus. Dicta reprehenderit quos voluptate. Quia eius et adipisci perferendis. Quibusdam ut totam sit est suscipit aliquam eos voluptatum quis cumque eligendi, deserunt, quasi magni velit ratione assumenda et dicta quisquam corrupti consequuntur optio inventore ipsam qui? 
-              Dicta rerum at fugiat, autem quaerat ullam.";
+$loremIpsum = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem reprehenderit nobis veritatis comodi fugiat molestias impedit unde ipsum voluptatum, corrupti minus sit excepturi nostrum quisquam? Quos impedit eum nulla optio.";
 
-echo"<p>
+echo "<p>{$loremIpsum}</p>";
+echo "Panjang karakter: " . strlen($loremIpsum) . "<br>";
+echo "Panjang kata: " . str_word_count($loremIpsum) . "<br>";
+echo "<p>" . strtoupper($loremIpsum) . "</p>";
+echo "<p>" . strtolower($loremIpsum) . "</p>";
+
+?>
